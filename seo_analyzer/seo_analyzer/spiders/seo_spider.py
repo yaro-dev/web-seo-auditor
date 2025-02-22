@@ -4,7 +4,7 @@ from scrapy.http import Request
 from scrapy.spidermiddlewares.httperror import HttpError
 import re
 import hashlib
-import requests  # Nueva dependencia
+import requests  
 
 class SEOSpider(scrapy.Spider):
     name = "seo_spider"
@@ -24,14 +24,14 @@ class SEOSpider(scrapy.Spider):
                 'meta_descripcion': '',
                 'palabras_clave': '',
                 'url': url,
-                'social_metadata': {}  # Nueva sección
+                'social_metadata': {}  
             },
             'tecnico': {
                 'servidor': '',
                 'tecnologia': '',
                 'frameworks': [],
-                'core_web_vitals': {},  # Nueva métrica
-                'duplicate_content': ''  # Nueva detección
+                'core_web_vitals': {}, 
+                'duplicate_content': ''  
             },
             'legibilidad': {
                 'puntaje': 0,
@@ -41,7 +41,7 @@ class SEOSpider(scrapy.Spider):
                 'seo_tecnico': [],
                 'problemas_encabezados': [],
                 'oportunidades': [],
-                'indexabilidad': {}  # Nueva sección
+                'indexabilidad': {}  
             }
         }
         self.content_hashes = {}
@@ -61,7 +61,7 @@ class SEOSpider(scrapy.Spider):
         
         yield self.results
 
-    # Métodos existentes (se mantienen igual)
+    # Métodos existentes 
     def _parse_seo(self, response):
         self.results['seo'].update({
             'titulo': response.xpath('//title/text()').get('').strip(),
@@ -177,7 +177,7 @@ class SEOSpider(scrapy.Spider):
     def _get_pagespeed_metrics(self, url):
         """ Obtiene métricas de rendimiento """
         try:
-            api_key = "AIzaSyC9IECVyQrv9VSGJug4ftn01tpH-OpLNWc"  # Obtener en: https://developers.google.com/speed/docs/insights/v5/get-started
+            api_key = ""  # Obtener en: https://developers.google.com/speed/docs/insights/v5/get-started
             api_url = f"https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={url}&key={api_key}"
             data = requests.get(api_url).json()
             
