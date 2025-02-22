@@ -1,0 +1,15 @@
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: text/plain
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="static-on-bigtable"
+Report-To: {"group":"static-on-bigtable","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/static-on-bigtable"}]}
+Date: Thu, 30 Jan 2025 03:07:52 GMT
+Expires: Thu, 30 Jan 2025 03:07:52 GMT
+Cache-Control: private, max-age=0
+Last-Modified: Wed, 29 Jan 2025 18:00:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-Xss-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

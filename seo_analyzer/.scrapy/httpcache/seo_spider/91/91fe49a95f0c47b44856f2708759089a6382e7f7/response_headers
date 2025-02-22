@@ -1,0 +1,21 @@
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Edge-Control: max-age=86400
+Expires: Fri, 31 Jan 2025 03:07:45 +0000
+Content-Type: text/plain; charset=utf-8
+Reporting-Endpoints: coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0", default="https://www.instagram.com/error/ig_web_error_reports/?device_level=unknown", permissions_policy="https://www.instagram.com/error/ig_web_error_reports/"
+Report-To: {"max_age":2592000,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coop\/?minimize=0"}],"group":"coop_report","include_subdomains":true}, {"max_age":259200,"endpoints":[{"url":"https:\/\/www.instagram.com\/error\/ig_web_error_reports\/?device_level=unknown"}]}, {"max_age":21600,"endpoints":[{"url":"https:\/\/www.instagram.com\/error\/ig_web_error_reports\/"}],"group":"permissions_policy"}
+Content-Security-Policy: default-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;script-src *.teststagram.com *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-2tgYHbmp' blob: data: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.teststagram.com *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com;connect-src *.teststagram.com *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self';font-src *.teststagram.com *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.teststagram.com *.instagram.com *.facebook.com *.fbcdn.net data: *.igsonar.com *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com cdn.fbsbx.com data: blob: https://*.giphy.com;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;block-all-mixed-content;upgrade-insecure-requests;
+Document-Policy: force-load-at-top
+Permissions-Policy: accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to="permissions_policy"
+Cross-Origin-Resource-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 0
+X-Frame-Options: DENY
+Origin-Agent-Cluster: ?1
+Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
+X-Stack: www
+X-Fb-Debug: U8Ra6eZKZSY2VzjPY3ee9Pt0krNDvXVvHrXVyw+nrN1ZMUUE1gPRjwVjCQEG05SVTSrOqXcWEPTILkItjeTRgA==
+Date: Thu, 30 Jan 2025 03:07:45 GMT
+Alt-Svc: h3=":443"; ma=86400

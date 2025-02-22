@@ -1,0 +1,16 @@
+X-Envoy-Upstream-Service-Time: 1
+Via: HTTP/1.1 fringe, HTTP/2 edgeproxy, 1.1 google, 1.1 varnish, 1.1 varnish
+X-Content-Type-Options: nosniff
+Accept-Ranges: bytes
+Content-Type: text/plain
+Server: envoy
+Last-Modified: Wed, 29 Jan 2025 23:39:09 GMT
+Etag: W/"679abc1d-1d0"
+Strict-Transport-Security: max-age=31536000
+Content-Encoding: gzip
+Date: Thu, 30 Jan 2025 03:07:45 GMT
+X-Served-By: cache-mia-kmia1760091-MIA, cache-mia-kmia1760091-MIA
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1738206465.160144,VS0,VE52
+Vary: Accept-Encoding

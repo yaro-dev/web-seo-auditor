@@ -1,0 +1,19 @@
+Cache-Control: max-age=604800,private
+Content-Type: text/plain
+Content-Encoding: gzip
+Expires: Thu, 06 Feb 2025 03:07:45 GMT
+Last-Modified: Tue, 01 Oct 2024 22:57:34 GMT
+Etag: W/"66fc7e5e-1a3df"
+Set-Cookie: bcookie="v=2&60cfc2ce-8d3c-4973-8cd9-3b3fe6ea0ae2"; domain=.linkedin.com; Path=/; Secure; Expires=Fri, 30-Jan-2026 03:07:45 GMT; SameSite=None
+Set-Cookie: bscookie="v=1&20250130030745b28d6417-a04d-4d97-89cd-c0e1069a20b1AQFbqgP0Dz7x_CFeRUDyuSkBqlefu9u0"; domain=.www.linkedin.com; Path=/; Secure; Expires=Fri, 30-Jan-2026 03:07:45 GMT; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+Content-Security-Policy: frame-ancestors 'self'
+X-Li-Fabric: prod-lva1
+X-Li-Pop: afd-prod-lva1-x
+X-Li-Proto: http/1.1
+X-Li-Uuid: AAYs47ruMbAeFane/d05Rw==
+X-Cache: CONFIG_NOCACHE
+X-Msedge-Ref: Ref A: 6DA8345EC06E4F94A548893BEF5ACE64 Ref B: LAX311000108049 Ref C: 2025-01-30T03:07:45Z
+Date: Thu, 30 Jan 2025 03:07:45 GMT
